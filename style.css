@@ -1,0 +1,17 @@
+.nav-link:hover {
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.573);
+}
+
+.navbar {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.230);
+    padding: 20px;
+}
+
+p.truncate-3l {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
